@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
     String userId = "3003";
     Navigator.of(context).pushReplacementNamed(SettingsPage.id, arguments: userId);
   }
-
+  //this function opens details page
   @override
   Widget build(BuildContext context) {
     return Scaffold(
